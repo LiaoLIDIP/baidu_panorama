@@ -24,7 +24,7 @@ def main():
     fov = "90" # 全景的水平方向范围[10-360]，360显示全景图
 
     num = 1 # 计数
-    ak = 'lGNoR7w8x3K8FGYv4ydYbQgsxHlPcP0v' # 百度API ak
+    ak = '' # 百度API ak
     xy_file_name = '123.xlsx' #经纬度z文件
     root = "images_baidu/"  # 图片保存位置
     xy_pd = pd.read_excel(xy_file_name)
